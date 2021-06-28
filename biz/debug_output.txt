@@ -1,0 +1,107 @@
+Attaching to biz_waweb_1
+[36mwaweb_1   |[0m Database is not up yet - sleeping
+[36mwaweb_1   |[0m Database is up. Starting /opt/whatsapp/bin/launch_within_docker.sh
+[36mwaweb_1   |[0m 
+[36mwaweb_1   |[0m Database waweb created successfully
+[36mwaweb_1   |[0m Database waweb initialized successfully
+[36mwaweb_1   |[0m Database settings stored in database.yml file
+[36mwaweb_1   |[0m Added SSL configuration
+[36mwaweb_1   |[0m Creating self-signed certificate for server: localhost
+[36mwaweb_1   |[0m Generating RSA private key, 2048 bit long modulus (2 primes)
+[36mwaweb_1   |[0m ...........................................+++++
+[36mwaweb_1   |[0m ............................................................................................................+++++
+[36mwaweb_1   |[0m e is 65537 (0x010001)
+[36mwaweb_1   |[0m Created root CA key
+[36mwaweb_1   |[0m You are about to be asked to enter information that will be incorporated
+[36mwaweb_1   |[0m into your certificate request.
+[36mwaweb_1   |[0m What you are about to enter is what is called a Distinguished Name or a DN.
+[36mwaweb_1   |[0m There are quite a few fields but you can leave some blank
+[36mwaweb_1   |[0m For some fields there will be a default value,
+[36mwaweb_1   |[0m If you enter '.', the field will be left blank.
+[36mwaweb_1   |[0m -----
+[36mwaweb_1   |[0m 
+[36mwaweb_1   |[0m Created root CA (autogen) certificate
+[36mwaweb_1   |[0m Country Name (2 letter code) [AU]:State or Province Name (full name) [Some-State]:Locality Name (eg, city) []:Organization Name (eg, company) [Internet Widgits Pty Ltd]:Organizational Unit Name (eg, section) []:Common Name (e.g. server FQDN or YOUR name) []:Email Address []:Generating RSA private key, 2048 bit long modulus (2 primes)
+[36mwaweb_1   |[0m ...............................+++++
+[36mwaweb_1   |[0m ...........................................................+++++
+[36mwaweb_1   |[0m e is 65537 (0x010001)
+[36mwaweb_1   |[0m Created device key for localhost
+[36mwaweb_1   |[0m You are about to be asked to enter information that will be incorporated
+[36mwaweb_1   |[0m into your certificate request.
+[36mwaweb_1   |[0m What you are about to enter is what is called a Distinguished Name or a DN.
+[36mwaweb_1   |[0m There are quite a few fields but you can leave some blank
+[36mwaweb_1   |[0m For some fields there will be a default value,
+[36mwaweb_1   |[0m If you enter '.', the field will be left blank.
+[36mwaweb_1   |[0m -----
+[36mwaweb_1   |[0m Country Name (2 letter code) [AU]:State or Province Name (full name) [Some-State]:Locality Name (eg, city) []:Organization Name (eg, company) [Internet Widgits Pty Ltd]:Organizational Unit Name (eg, section) []:Common Name (e.g. server FQDN or YOUR name) []:Email Address []:
+[36mwaweb_1   |[0m Please enter the following 'extra' attributes
+[36mwaweb_1   |[0m to be sent with your certificate request
+[36mwaweb_1   |[0m 
+[36mwaweb_1   |[0m Created device certificate signing request
+[36mwaweb_1   |[0m A challenge password []:An optional company name []:Signature ok
+[36mwaweb_1   |[0m subject=CN = localhost
+[36mwaweb_1   |[0m Getting CA Private Key
+[36mwaweb_1   |[0m Signed device certificate
+[36mwaweb_1   |[0m Deleted root CA (autogen) key
+[36mwaweb_1   |[0m Provisioning certificates
+[36mwaweb_1   |[0m Uploading certificate to db
+[36mwaweb_1   |[0m Downloading certificate from db
+[36mwaweb_1   |[0m Installed ca cert at /var/lib/whatsapp/ca.pem
+[36mwaweb_1   |[0m Installed server cert at /var/lib/whatsapp/www.cert
+[36mwaweb_1   |[0m Rewrote cert file at /var/lib/whatsapp/server.cert
+[36mwaweb_1   |[0m SSL Hardened
+[36mwaweb_1   |[0m SSL enabled
+[36mwaweb_1   |[0m Provisioned certificates successfully
+[36mwaweb_1   |[0m Cleaned up staging area
+[36mwaweb_1   |[0m  * Starting web server lighttpd
+[36mwaweb_1   |[0m    ...done.
+[36mwaweb_1   |[0m Web server started
+[36mwaweb_1   |[0m Starting web monitor loop ...
+[36mwaweb_1   |[0m ==> /var/log/lighttpd/error.log <==
+[36mwaweb_1   |[0m 2021-06-27 16:41:02: (server.c.1488) server started (lighttpd/1.4.55) 
+[36mwaweb_1   |[0m tail: cannot open '/var/log/whatsapp/web.log' for reading: No such file or directory
+[36mwaweb_1   |[0m Setting up watches.
+[36mwaweb_1   |[0m Watches established.
+[36mwaweb_1   |[0m 
+[36mwaweb_1   |[0m ==> /var/log/lighttpd/error.log <==
+[36mwaweb_1   |[0m 2021-06-27 16:47:41: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:47:43: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:47:48: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:48:15: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:48:16: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:48:17: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:48:22: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:48:52: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 16:50:49: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 17:26:40: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m tail: '/var/log/whatsapp/web.log' has appeared;  following new file
+[36mwaweb_1   |[0m 
+[36mwaweb_1   |[0m ==> /var/log/whatsapp/web.log <==
+[36mwaweb_1   |[0m [2021-06-27 17:34:05.128541] app.ERROR: [e4e69e2a7c3b48d6aedcb39fbca9a37a] Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /favicon.ico" (from "https://localhost:9090/") (uncaught exception) at /var/www/html/vendor/symfony/http-kernel/EventListener/RouterListener.php line 2 {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0): No route found for \"GET /favicon.ico\" (from \"https://localhost:9090/\") at /var/www/html/vendor/symfony/http-kernel/EventListener/RouterListener.php:2, Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException(code: 0): No routes found for \"/favicon.ico\". at /var/www/html/vendor/symfony/routing/Matcher/UrlMatcher.php:2)"} []
+[36mwaweb_1   |[0m [2021-06-27 17:34:05.130869] app.INFO: [e4e69e2a7c3b48d6aedcb39fbca9a37a] Response:  {"meta":{"version":"v2.35.2","api_status":"stable"},"errors":[{"code":1006,"title":"Resource not found","details":"URL path not found"}]} []
+[36mwaweb_1   |[0m [2021-06-27 17:34:05.132268] app.INFO: [e4e69e2a7c3b48d6aedcb39fbca9a37a] Request GET_/favicon.ico returns 404 in 88.11 ms [] []
+[36mwaweb_1   |[0m 
+[36mwaweb_1   |[0m ==> /var/log/lighttpd/error.log <==
+[36mwaweb_1   |[0m 2021-06-27 17:42:08: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 17:42:10: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 17:42:15: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 17:42:45: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 17:42:51: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 17:43:09: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 2021-06-27 17:43:44: (mod_openssl.c.1796) SSL: 1 error:1408F09C:SSL routines:ssl3_get_record:http request 
+[36mwaweb_1   |[0m 
+[36mwaweb_1   |[0m ==> /var/log/whatsapp/web.log <==
+[36mwaweb_1   |[0m [2021-06-27 17:44:07.506738] app.INFO: [e41108f7db5741c2ae9bb78b5268f65a] Matched route "{route}". {"route":"POST_v1_users_login","route_parameters":{"_controller":"WhatsApp\\Controller\\UsersController::login","_route":"POST_v1_users_login"},"request_uri":"https://localhost:9090/v1/users/login","method":"POST"} []
+[36mwaweb_1   |[0m [2021-06-27 17:44:07.507685] app.INFO: [e41108f7db5741c2ae9bb78b5268f65a] Basic authentication Authorization header found for user. {"username":"semo"} []
+[36mwaweb_1   |[0m [2021-06-27 17:44:07.512454] app.INFO: [e41108f7db5741c2ae9bb78b5268f65a] Basic authentication failed for user. {"username":"semo","exception":"[object] (Symfony\\Component\\Security\\Core\\Exception\\BadCredentialsException(code: 0): Bad credentials. at /var/www/html/vendor/symfony/security/Core/Authentication/Provider/UserAuthenticationProvider.php:2, Symfony\\Component\\Security\\Core\\Exception\\UsernameNotFoundException(code: 0): Username \"semo\" does not exist. at /var/www/html/src/WhatsApp/Security/UserProvider.php:2)"} []
+[36mwaweb_1   |[0m [2021-06-27 17:44:07.513760] app.INFO: [e41108f7db5741c2ae9bb78b5268f65a] Request POST_/v1/users/login returns 401 in 21.98 ms [] []
+[36mwaweb_1   |[0m [2021-06-27 17:44:53.643359] app.INFO: [f6d935d806714fb8abe922f436f9efe4] Matched route "{route}". {"route":"POST_v1_users_login","route_parameters":{"_controller":"WhatsApp\\Controller\\UsersController::login","_route":"POST_v1_users_login"},"request_uri":"https://localhost:9090/v1/users/login","method":"POST"} []
+[36mwaweb_1   |[0m [2021-06-27 17:44:53.643710] app.INFO: [f6d935d806714fb8abe922f436f9efe4] Basic authentication Authorization header found for user. {"username":"semo"} []
+[36mwaweb_1   |[0m [2021-06-27 17:44:53.645595] app.INFO: [f6d935d806714fb8abe922f436f9efe4] Basic authentication failed for user. {"username":"semo","exception":"[object] (Symfony\\Component\\Security\\Core\\Exception\\BadCredentialsException(code: 0): Bad credentials. at /var/www/html/vendor/symfony/security/Core/Authentication/Provider/UserAuthenticationProvider.php:2, Symfony\\Component\\Security\\Core\\Exception\\UsernameNotFoundException(code: 0): Username \"semo\" does not exist. at /var/www/html/src/WhatsApp/Security/UserProvider.php:2)"} []
+[36mwaweb_1   |[0m [2021-06-27 17:44:53.646271] app.INFO: [f6d935d806714fb8abe922f436f9efe4] Request POST_/v1/users/login returns 401 in 17.29 ms [] []
+[36mwaweb_1   |[0m [2021-06-27 17:47:31.242204] app.INFO: [09d60114d6b24fd2b714a187d8edbd9f] Matched route "{route}". {"route":"POST_v1_users_login","route_parameters":{"_controller":"WhatsApp\\Controller\\UsersController::login","_route":"POST_v1_users_login"},"request_uri":"https://localhost:9090/v1/users/login","method":"POST"} []
+[36mwaweb_1   |[0m [2021-06-27 17:47:31.242671] app.INFO: [09d60114d6b24fd2b714a187d8edbd9f] Basic authentication Authorization header found for user. {"username":"admin"} []
+[36mwaweb_1   |[0m [2021-06-27 17:47:31.384286] app.INFO: [09d60114d6b24fd2b714a187d8edbd9f] Updated user=admin, count=1 [] []
+[36mwaweb_1   |[0m [2021-06-27 17:47:31.391043] app.INFO: [09d60114d6b24fd2b714a187d8edbd9f] Stored token in DB [] []
+[36mwaweb_1   |[0m [2021-06-27 17:47:31.391165] app.INFO: [09d60114d6b24fd2b714a187d8edbd9f] Response:  {"users":["[object] (stdClass: {\"token\":\"eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2MjQ4MTYwNTEsImV4cCI6MTYyNTQyMDg1MSwid2E6cmFuZCI6ImI5NDA4OWZhOGRjYTAyZDEwNjMyYWM1YzZmZGE0MmFjIn0.RxytXKQ0SpjSw7SPzjF2C8LDy6TGmVp5wXEsKu7ddOE\",\"expires_after\":\"2021-07-04 17:47:31+00:00\"})"],"meta":{"version":"v2.35.2","api_status":"stable"}} []
+[36mwaweb_1   |[0m [2021-06-27 17:47:31.391711] app.INFO: [09d60114d6b24fd2b714a187d8edbd9f] Request POST_/v1/users/login returns 200 in 168.1 ms [] []
